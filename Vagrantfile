@@ -10,7 +10,6 @@ Vagrant.configure("2") do |config|
   # --- SECȚIUNEA NOUĂ PENTRU DEPANARE ---
   config.vm.provider "virtualbox" do |vb|
      # Activează "monitorul" ca să vedem erorile la pornire
-     vb.gui = true
      # Alocă 2GB RAM ca să nu se blocheze
      vb.memory = "2048"
      # Alocă 2 procesoare (opțional, ajută la viteză)
